@@ -8,6 +8,6 @@
     <title>Myedit</title>
   </head>
   <body>
-    <h1>Myニュース編集画面</h1>
+    <h1>プロフィール編集画面</h1>
   </body>
 </html>

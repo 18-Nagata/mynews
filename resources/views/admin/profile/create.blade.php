@@ -18,7 +18,7 @@
                     <div class="form-group row">
                         <label class="col-md-2">名前</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="title" value="{{ old('title') }}">
+                            <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -39,12 +39,7 @@
                             <textarea class="form-control" name="introduction" rows="20">{{ old('introduction') }}</textarea>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label class="col-md-2">画像</label>
-                        <div class="col-md-10">
-                            <input type="file" class="form-control-file" name="image">
-                        </div>
-                    </div>
+                    
                     {{ csrf_field() }}
                     <input type="submit" class="btn btn-primary" value="更新">
                 </form>
